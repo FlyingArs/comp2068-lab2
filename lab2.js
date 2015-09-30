@@ -16,6 +16,7 @@ http.createServer(function(req, res){
 	var y = parseFloat(qs.y);
 	var result;
 	
+	//display results by methods
 	if (method == 'add'){
 		result = x + y;
 		method = '+';
@@ -32,6 +33,7 @@ http.createServer(function(req, res){
 		res.write('<h1>This is the wrong method </h1>' + '<br />');
 	}
 	
+	//output the results to the webpage
 	res.write(x +' '+ method +' '+ y +' = '+ result);
 	res.end();
 }).listen(3000);
