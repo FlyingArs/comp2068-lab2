@@ -32,3 +32,8 @@
 10. load data db.mynewcollection.insert({"foo" : "bar"})
     find the data db.mynewcollection.find()
 
+11. how to install mongoose
+    npm install mongoose
+
+
+
