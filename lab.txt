@@ -1,0 +1,7 @@
+1. How to push/add a new file to github. You need to clone the files first and then add a file to github. 
+
+2. How to push a file to github manually. Check procesure.txt
+
+3. 
+
+

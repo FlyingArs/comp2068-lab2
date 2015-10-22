@@ -1,0 +1,35 @@
+1. Create a directory and files on desktop
+  cd file path (drag your file to the git shell)
+
+2. Check your directory
+   ls
+
+3. Initialize the repository
+   git init
+
+4. Add the repository
+   git add .
+
+5. commit the repository (m means message)
+   git commit -m "First Commit"
+
+6. Now github will connect to the internet and ask you for your name and password
+   so you can connect to github
+
+7. Go to the github online, create the depository with the same name. Type in
+   git remote add origin https://github.com/FlyingArs/repo2.git
+
+8. transfer the file
+   git push -u origin master
+
+9. Check the status
+   git status
+
+10.Check the log
+   git log
+
+11.Sync the new readMe file or any files from the online to the desktop
+   git pull
+
+12. Check the log
+   git log
