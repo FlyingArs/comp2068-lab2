@@ -35,5 +35,6 @@
 11. how to install mongoose
     npm install mongoose
 
-
+md \data\db
+C:\mongodb\bin\mongod.exe
 
